@@ -16,7 +16,7 @@ public class ItemServlet extends HttpServlet {;
     String code;
 
     @Override
-    public void init() throws ServletException {
+    public void init() {
         itemModel = new ItemModel();
     }
 
